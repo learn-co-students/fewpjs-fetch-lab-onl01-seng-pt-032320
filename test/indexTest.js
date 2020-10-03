@@ -7,7 +7,7 @@ chai.use( spies );
 
 
 describe( "index.js", () => {
-  describe( 'getPosts()', () => {
+  // describe( 'getPosts()', () => {
 
     beforeEach( () => {
       window.document.body.innerHTML = '<main></main>'
@@ -28,4 +28,4 @@ describe( "index.js", () => {
       })
     } )
   } )
-})
+// })
